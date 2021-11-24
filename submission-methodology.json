@@ -1,4 +1,4 @@
 {
-    "dockerhub-id": "<user>/<image>:<tag>",
-    "build-script": "<command>"
+    "dockerhub-id": "shaheendane/hw5:latest",
+    "build-script": "python run.py"
 }
