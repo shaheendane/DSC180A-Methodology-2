@@ -11,7 +11,7 @@ femact = pd.read_excel(xls, 'FemAct')
 maletemp = pd.read_excel(xls, 'MaleTemp')
 maleact = pd.read_excel(xls, 'MaleAct')
 
-print(femptemp.describe())
+print(femtemp.describe())
 print(femact.describe())
 print(maletemp.describe())
 print(maleact.describe())
