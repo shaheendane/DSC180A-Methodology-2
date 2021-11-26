@@ -55,3 +55,8 @@ def basic_eda(data):
 
     df['avg'] = df.drop([0], axis=1).mean(axis = 1)
     df.boxplot(column = ['avg'])
+    
+    print(femtemp.describe())
+    print(femact.describe())
+    print(maletemp.describe())
+    print(maleact.describe())
