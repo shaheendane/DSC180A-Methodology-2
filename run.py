@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 
-sys.path.insert(0, 'src')
+sys.path.insert(0, 'src/data')
 
 from eda import basic_eda
 
